@@ -2,205 +2,30 @@
 layout: default
 ---
 
-{% include slider.html content="<h2>Accepted papers</h2>"%}
+{% include slider.html content="
+<h2>Accepted papers</h2>
+"%}
 
 <!-- Content -->
 <div class="block">
-  <div class="container">
-    <div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <section id="main-content">
+                    <div class="section-content">
+                        <header><h2>Accepted papers</h2></header>
+                    </div>
+                    <!-- /.section-content -->
+                </section>
+                <!-- /.main-content -->
+            </div>
+            <!-- /.col-md-6 -->
 
-      <div class="col-md-9">
-        <section id="main-content">
-          <div class="section-content">
-            <header><h2>Accepted papers</h2></header>
-              <h3><p>We have 40 papers accepted tentatively for SoCC 2023. Paper title, content, and even the acceptance decision may change during the shepherding process. The detailed program is coming up soon.</p></h3> <br><br>
-
-              <header><h2>Research</h2></header>
-
-              <p>
-              <h3>Plexus: Optimizing Join Approximation for Geo-Distributed Data Analytics</h3>
-              <h4 class="talk-title">- Joel Wolfrath, Abhishek Chandra (University of Minnesota)</h4></p>
-
-
-              <p>
-              <h3>Carbon Containers: A System-level Facility for Managing Application-level Carbon Emissions</h3>
-              <h4 class="talk-title">- John Thiede (University of Massachusetts - Amherst); Noman Bashir (University of Massachusetts Amherst); David Irwin (University of Massachusetts, Amherst),  Prashant Shenoy</h4></p>
-
-              <p>
-              <h3>Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing</h3>
-              <h4 class="talk-title">- Suyi Li, Wei Wang (Hong Kong University of Science and Technology); Jun Yang, Guangzhen Chen, Daohe Lu (WeBank)</h4></p>
-
-
-              <p>
-              <h3>Lifting the Fog of Uncertainties: Dynamic Resource Orchestration for the Containerized Cloud</h3>
-              <h4 class="talk-title">- Yuqiu Zhang, Tongkun Zhang, Gengrui Zhang, Hans-Arno Jacobsen (University of Toronto)</h4></p>
-
-
-              <p>
-              <h3>Oblivious Paxos: Privacy-Preserving Consensus Over Secret-Shares</h3>
-              <h4 class="talk-title">- Fadhil I. Kurnia, Arun Venkataramani (University of Massachusetts Amherst)</h4></p>
-
-
-              <p>
-              <h3>Maximizing VMs' IO Performance on Overcommitted CPUs with Fairness</h3>
-              <h4 class="talk-title">- Tong Xing, Cong Xiong (The University of Edinburgh); Chuan Ye, Qi Wei, Javier Picorel (Huawei); Antonio Barbalace (The University of Edinburgh)</h4></p>
-
-              <p>
-              <h3>Not All Resources are Visible: Exploiting Fragmented Shadow Resources in Shared-State Scheduler Architecture</h3>
-              <h4 class="talk-title">- Xinkai Wang, Hao He, Yuancheng Li, Chao Li, Xiaofeng Hou, Jing Wang, Quan Chen, Jingwen Leng, Minyi Guo (Shanghai Jiao Tong University); Leibo Wang (Huawei Technologies Co., Ltd.)</h4></p>
-
-              <p>
-              <h3>Polis: Efficient Federated Learning via Scalable Client Clustering</h3>
-              <h4 class="talk-title">- Jiachen Liu, Fan Lai (University of Michigan); Yinwei Dai (Princeton University); Aditya Akella (UT Austin and Google); Harsha V. Madhyastha (University of Southern California); Mosharaf Chowdhury (University of Michigan)</h4></p>
-
-              <p>
-              <h3>Dissecting Overheads of Service Mesh Sidecars</h3>
-              <h4 class="talk-title">- Xiangfeng Zhu (University of Washington); Guozhen She (Duke university); Bowen Xue (University of Washington); Yu Zhang, Yongsu Zhang, Xuan Kelvin Zou, XiongChun Duan, Peng He (ByteDance Inc.); Arvind Krishnamurthy (University of Washington); Matthew Lentz (Duke University and VMware Research); Danyang Zhuo (Duke University); Ratul Mahajan (University of Washington, Amazon)</h4></p>
-
-              <p>
-              <h3>OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation</h3>
-              <h4 class="talk-title">- Kuntai Du, Yuhan Liu, Yitian Hao (University of Chicago); Qizheng Zhang (Stanford University); Haodong Wang (The University of Chicago); Yuyang Huang (University of Chicago); Ganesh Ananthanarayanan (Microsoft); Junchen Jiang (University of Chicago)</h4></p>
-
-              <p>
-              <h3>Parrotfish: Parametric Regression for Optimizing Serverless Functions</h3>
-              <h4 class="talk-title">- Arshia Moghimi (University of British Columbia); Joe Hattori (The University of Tokyo); Alexander Li (University of British Columbia); Mehdi BEN CHIKHA (National Institute of Applied Sciences and Technology (INSAT)); Mohammad Shahrad (University of British Columbia)</h4></p>
-
-              <p>
-              <h3>A Comparison of End-to-End Decision Forest Inference Pipelines</h3>
-              <h4 class="talk-title">- Hong Guan, Saif Masood, Mahidhar Reddy Dwarampudi, Venkatesh Gunda (Arizona State University); Hong Min (IBM T. J. Watson Research Center); Lei Yu (Rensselaer Polytechnic Institut); Soham Nag, Jia Zou (Arizona State University)</h4></p>
-
-              <p>
-              <h3>Enabling Multi-tenancy on SSDs with Accurate IO Interference Modeling</h3>
-              <h4 class="talk-title">- Lokesh N. Jaliminche (University of California, Santa Cruz); Chandranil (Nil) Chakraborttii (Trinity College, Hartford, USA); Changho Choi (Samsung Semiconductor, Inc, USA); Heiner Litz (University of California, Santa Cruz)</h4></p>
-
-              <p>
-              <h3>KVSEV: A Secure In-Memory Key-Value Store with Secure Encrypted Virtualization</h3>
-              <h4 class="talk-title">- Junseung You, Kyeongryong Lee (Seoul National University); Hyungon Moon (UNIST (Ulsan National Institute of Science and Technology)); Yeongpil Cho (Hanyang University); Yunheung Paek (Seoul National University)</h4></p>
-
-              <p>
-              <h3>Building GPU TEEs using CPU Secure Enclaves with GEVisor</h3>
-              <h4 class="talk-title">- Xiaolong Wu, Dave (Jing) Tian (Purdue University); Chung Hwan Kim (University of Texas at Dallas)</h4></p>
-
-              <p>
-              <h3>Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo</h3>
-              <h4 class="talk-title">- Binghao Chen, Han Zhao, Weihao Cui, Yifu He, Shulai Zhang, Quan Chen, Zijun Li, Minyi Guo (Shanghai Jiao Tong University)</h4></p>
-
-              <p>
-              <h3>AsyFunc: A High-Performance and Resource-Efficient Serverless Inference System via Asymmetric Functions</h3>
-              <h4 class="talk-title">- Qiangyu Pei, Yongjie Yuan, Haichuan Hu (School of Computer Science and Technology, Huazhong University of Science and Technology); Qiong Chen (Huawei); Fangming Liu (Peng Cheng Laboratory & Huazhong University of Science and Technology)</h4></p>
-
-              <p>
-              <h3>Fledge: Simplifying Topology Extension in Federated Learning</h3>
-              <h4 class="talk-title">- Harshit Daga (Georgia Institute of Technology); Jaemin Shin (KAIST); Dhruv Garg (Georgia Institute of Technology); Ada Gavrilovska (Georgia Tech); Myungjin Lee, Ramana Rao Kompella (Cisco Systems)</h4></p>
-
-              <p>
-              <h3>TMC: Near-Optimal Resource Allocation for Tiered-Memory Systems</h3>
-              <h4 class="talk-title">- Yuanjiang Ni (Alibaba Group); Pankaj Mehra (Elephance Memory, Inc.); Ethan Miller (Pure Storage / University of California, Santa Cruz); Heiner Litz (University of California, Santa Cruz)</h4></p>
-
-              <p>
-              <h3>User Disengagement-Oriented Target Enforcement for Multi-Tenant Database Systems</h3>
-              <h4 class="talk-title">- Ning Li (Dept. of Computer Science and Engineering, University of Texas at Arlington, USA); Hong Jiang (UT Arlington); Hao Che (Department of Computer Science and Engineering, The University of Texas at Arlington); Zhijun Wang (University of Texas at Arlington); Minh Q. Nguyen (Faculty of IT, Ho Chi Minh City University of Transport, Vietnam); Stoddard Rosenkrantz (The University of Texas at Arlington)</h4></p>
-
-              <p>
-              <h3>Anticipatory Resource Allocation for ML Training Clusters</h3>
-              <h4 class="talk-title">- Tapan Chugh (University of Washington); Srikanth Kandula (Microsoft); Arvind Krishnamurthy (University of Washington); Ratul Mahajan (University of Washington, Amazon); Ishai Menache (Microsoft)</h4></p>
-
-              <p>
-              <h3>𝜇ConAdapter: Reinforcement Learning-based Fast Concurrency Adaptation for Microservices in the Cloud</h3>
-              <h4 class="talk-title">- Jianshu Liu (Louisiana State University); Shungeng Zhang (Augusta University); Qingyang Wang (Louisiana State University)</h4></p>
-
-              <p>
-              <h3>FileScale: Fast and Elastic Metadata Management for Distributed File Systems</h3>
-              <h4 class="talk-title">- Gang Liao (UNIVERSITY OF MARYLAND); Daniel Abadi (University of Maryland, College Park)</h4></p>
-
-              <p>
-              <h3>HELIOS: Hardware-assisted High-performance Security Extension for Cloud Networking</h3>
-              <h4 class="talk-title">- Myoungsung You (KAIST); Jaehyun Nam (DANKOOK University); Minjae Seo, Seungwon Shin (KAIST)</h4></p>
-
-              <p>
-              <h3>LatenSeer: Causal Modeling of End-to-End Latency Distribution by Harnessing Distributed Tracing</h3>
-              <h4 class="talk-title">- Yazhuo Zhang (Emory University); Rebecca Isaacs (Amazon Web Services); Yao Yue (Pelican Foundation); Juncheng Yang (Carnegie Mellon University); Lei Zhang (Princeton University); Ymir Vigfusson (Emory University)</h4></p>
-
-              <p>
-              <h3>Cryonics: Trustworthy Function-as-a-Service using Snapshot-based Enclaves</h3>
-              <h4 class="talk-title">- Seong-Joong Kim (The Affiliated Institute of ETRI, KAIST); Myoungsung You (KAIST); Byung Joon Kim (The Affiliated Institute of ETRI); Seungwon Shin (KAIST)</h4></p>
-
-              <p>
-              <h3>CAMEO: A Causal Transfer Learning Approach for Performance Optimization of Configurable Computer Systems</h3>
-              <h4 class="talk-title">- Md Shahriar Iqbal (University of South Carolina); Ziyuan Zhong (Columbia University); Iftakhar Ahmad (University of South Carolina); Baishakhi Ray (Columbia University); Pooyan Jamshidi (University of South Carolina)</h4></p>
-
-              <p>
-              <h3>Yama: Providing Performance Isolation for Black-Box Offloads</h3>
-              <h4 class="talk-title">- Tao Ji, Divyanshu Saxena (The University of Texas at Austin); Brent Stephens (University of Utah); Aditya Akella (UT Austin and Google)</h4></p>
-
-              <p>
-              <h3>Chitu: Accelerating Serverless Workflows with Asynchronous State Replication Pipeline</h3>
-              <h4 class="talk-title">- Zhengyu Lei (Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences); Xiao Shi (Institute of Computing Technology, Chinese Academy of Sciences; Nanjing Institute of InforSuperBahn); Cunchi Lv, Xiaobing Yu, Xiaofang Zhao (Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences)</h4></p>
-
-              <header><h2>Industry</h2></header>
-
-              <p>
-              <h3>Towards GPU Memory Efficiency for Distributed Training at Scale</h3>
-              <h4 class="talk-title">- Runxiang Cheng (University of Illinois Urbana-Champaign); Chris Cai, Selman Yilmaz, Rahul Mitra, Malay Bag, Mrinmoy Ghosh (Meta Platforms, Inc.); Tianyin Xu (University of Illinois Urbana-Champaign)</h4></p>
-
-              <p>
-              <h3>Gödel: Unified Large-Scale Resource Management and Scheduling at ByteDance</h3>
-              <h4 class="talk-title">- Wu Xiang (Bytedance); Yakun Li (ByteDance); Yuquan Ren (Bytedance); Fan Jiang, Chaohui Xin, Varun Gupta, Chao Xiang (ByteDance); Xinyi Song (Bytedance); Meng Liu, Bing Li, Kaiyang Shao, Chen Xu, Wei Shao (ByteDance); Yuqi Fu (George Mason University); Wilson Wang, Cong Xu (Bytedance); Wei Xu (ByteDance); Caixue Lin, Rui Shi (Bytedance); Yuming Liang (ByteDance)</h4></p>
-
-              <p>
-              <h3>Disaggregating ML Input Data Processing at Scale</h3>
-              <h4 class="talk-title">- Andrew Audibert, Yang Chen (Google); Dan-Ovidiu Graur, Ana Klimovic (ETH Zurich); Jiri Simsa, Chandramohan A. Thekkath (Google)</h4></p>
-
-              <p>
-              <h3>How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads</h3>
-              <h4 class="talk-title">- Artjom Joosen, Ahmed Hassan, Luke Darlow, Martin Asenov, Wang Jianfeng, Rajkarn Singh (Huawei); Adam Barker (Huawei / University of St Andrews)</h4></p>
-
-
-              <header><h2>Vision</h2></header>
-
-              <p>
-              <h3>Function as a Function</h3>
-              <h4 class="talk-title">- Tom Kuchler, Michael Giardino, Timothy Roscoe, Ana Klimovic (ETH Zurich)</h4></p>
-
-              <p>
-              <h3>Metaverse as a Service: Megascale Social 3D on the Cloud</h3>
-              <h4 class="talk-title">- Andreas Haeberlen, Linh Thi Xuan Phan (Roblox / University of Pennsylvania); Morgan McGuire (Roblox)</h4></p>
-
-              <p>
-              <h3>The Gap Between Serverless Research and Real-world Systems</h3>
-              <h4 class="talk-title">- Qingyuan Liu, Dong Du, Yubin Xia (Shanghai Jiao Tong University); Ping Zhang (Huawei Cloud); Haibo Chen (Shanghai Jiao Tong University)</h4></p>
-
-              <p>
-              <h3>Is Machine Learning Necessary for Cloud Resource Usage Forecasting?</h3>
-              <h4 class="talk-title">- Georgia Christofidi, Konstantinos Papaioannou, Thaleia Dimitra Doudali (IMDEA Software Institute)</h4></p>
-
-              <p>
-              <h3>Sustainable supercomputing for AI: Experiences from GPU Power Capping at HPC Scale</h3>
-              <h4 class="talk-title">- Dan Zhao (MIT); Siddharth Samsi, Joseph McDonald (MIT Lincoln Laboratory); Baolin Li (Northeastern University); Michael Jones, David Bestor (MIT Lincoln Laboratory); Devesh Tiwari (Northeastern University); Vijay Gadepally (MIT Lincoln Laboratory)</h4></p>
-               
-
-
-              <header><h2>Work-in Progress</h2></header>
-
-              <p>
-              <h3>Multivariate Anomaly Detection with Domain Clustering</h3>
-              <h4 class="talk-title">- Frederic Boesel, Livio Schläpfer (IBM Research Zurich Research Lab); H. Pozidis (IBM Research GmbH, Switzerland); Mitch Gusat (IBM Research Zurich Research Lab)</h4></p>
-
-              <p>
-              <h3>Online Profiling and Adaptation of Quality Sensitivity for Internet Video</h3>
-              <h4 class="talk-title">- Yihua Cheng (University of Chicago); Hui Zhang (CONVIVA); Junchen Jiang (University of Chicago)</h4></p>
-              
-
-
-          </div><!-- /.section-content -->
-        </section><!-- /.main-content -->
-      </div><!-- /.col-md-6 -->
-
-      <div class="col-md-3">
-        {% include latest-news.html %}
-      </div><!-- /.col-md-3 -->
-
-    </div><!-- /.row -->
-  </div><!-- /.container -->
+            <div class="col-md-3">{% include latest-news.html %}</div>
+            <!-- /.col-md-3 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
 </div>
 <!-- end Content -->

@@ -1,531 +1,442 @@
 day1:
-- end: 8:00 AM
-  start: 7:30 AM
-  talks: []
-  title: Breakfast
-- end: 8:10 AM
+- end: 8:15 AM
   start: 8:00 AM
   talks: []
-  title: Opening Remarks
-- end: 9:10 AM
-  start: 8:10 AM
+  title: Opening remarks
+- end: 9:15 AM
+  start: 8:15 AM
   talks:
   - authors:
-    - Irene Zhang (Microsoft Research)
-    title: Demikernel and the Future of Datacenter Operating Systems
-  title: Keynote 1
-- end: 10:30 AM
-  start: 9:10 AM
+    - Benjamin C. Lee (University of Pennsylvania)
+    title: TBA
+  title: Keynote
+- end: 10:35 AM
+  start: 9:15 AM
   talks:
   - authors:
-    - Qinghe Wang (School of Artificial Intelligence, Anhui University), Futian Wang
-      (Anhui University), Xinwei Zheng (Institute of Artificial Intelligence, Hefei
-      Comprehensive National Science Center)
-    title: 'Hops: Fine-grained heterogeneous sensing, efficient and fair Deep Learning
-      cluster scheduling system'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698515
+    - Lazar Cvetković, Ana Klimovic (ETH Zurich)
+    title: Towards a Lightweight Sidecar-based Service Mesh for Serverless
   - authors:
-    - Archit Patke, Dhemath Reddy (University of Illinois at Urbana-Champaign), Saurabh
-      Jha (IBM Research), Haoran Qiu (University of Illinois at Urbana-Champaign),
-      Christian Pinto (IBM Research Europe), Chandra Narayanaswami (IBM Research),
-      Zbigniew Kalbarczyk, Ravishankar K. Iyer (University of Illinois at Urbana-Champaign)
-    title: Queue Management for SLO-Oriented Large Language Model Serving
-    url: https://dl.acm.org/doi/10.1145/3698038.3698523
+    - Iraklis Psaroudakis, Pooya Salehi, Jason Bryan, Francisco Fernández Castaño,
+      Brendan Cully, Ankita Kumar, Henning Andersen, Thomas Repantis (Elastic)
+    title: 'Serverless Elasticsearch: the Architecture Transformation from Stateful
+      to Stateless'
   - authors:
-    - Ziyang Liu, Renyu Yang (Beihang University), Jin Ouyang (Kuaishou Inc.), Weihan
-      Jiang, Tianyu Ye, Menghao Zhang (Beihang University), Sui Huang, Jiaming Huang,
-      Chengru Song, Di Zhang (Kuaishou Inc.), Tianyu Wo, Chunming Hu (Beihang University)
-    title: 'Kale: Elastic GPU Scheduling for Online DL Model Training'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698532
+    - Prasoon Sinha (The University of Texas at Austin); Kostis Kaffes (Columbia University);
+      Neeraja J. Yadwadkar (The University of Texas at Austin)
+    title: 'ALAP: Intent-Based Serverless Computing via Delayed Decision-Making'
   - authors:
-    - Redwan Ibne Seraj Khan (Virginia Tech), Arnab K. Paul (BITS Pilani, KK Birla
-      Goa Campus, India), Xun (Steve) Jian (Virginia Tech), Yue Cheng (University
-      of Virginia), Ali R. Butt (Virginia Tech)
-    title: 'FedCaSe: Enhancing Federated Learning with Heterogeneity-aware Caching
-      and Scheduling'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698559
-  title: 'Session 1 (Systems Supporting Machine Learning I: Scheduling)'
-  chair: "Shiva Jahangiri	(Santa Clara University)"
-- end: 11:00 AM
-  start: 10:30 AM
+    - Serhii Ivanenko, Vasyl Lanko (INESC-ID, Instituto Superior Técnico, University
+      of Lisbon); Rudi Horn, Vojin Jovanovic (Oracle Labs); Rodrigo Bruno (INESC-ID,
+      Instituto Superior Técnico, University of Lisbon)
+    title: 'Hydra: Virtualized Multi-Language Runtime for High-Density Serverless
+      Platforms'
+  title: Serverless
+- end: 11:35 AM
+  start: 10:35 AM
+  talks:
+  - authors:
+    - Tong Xing, Jiaxun Yang (The University of Edinburgh); Javier Picorel (Huawei
+      Technologies); Antonio Barbalace (The University of Edinburgh)
+    title: Rethinking Tiered Memory Management in Cloud Data Centers
+  - authors:
+    - Ruizhe Huang, Xinyu Wang, Zhida An, Hanwen Lei (Peking University); Peng Jiang
+      (Southeast University); Ziqi Zhang, Ding Li, Yao Guo, Xiangqun Chen (Peking
+      University); Yuntao Liu, Kang Zhou, Yuxin Ren, Ning Jia, Xinwei Hu (Huawei Technologies)
+    title: Cost-Efficient Cloud Infrastructure with Hugepage-aware Memory Deduplication
+  - authors:
+    - Gaulthier Gain, Benoît Knott, Cyril Soldani, Laurent Mathy (University of Liège)
+    title: 'Memory Matters: Load-Time Deduplication for Unikernels'
+  title: Memory
+- end: 12:45 PM
+  start: 11:35 AM
   talks: []
   title: Break
-- end: 12:30 PM
+- end: 2:45 PM
+  start: 12:45 PM
+  talks:
+  - authors:
+    - Davis Kazemaks (Delft University of Technology); Laurens Versluis (ASML); Burcu
+      Kulahcioglu Ozkan, Jérémie Decouchant (Delft University of Technology)
+    title: Balancing Fairness and Performance in Multi-User Spark Workloads with Dynamic
+      Scheduling
+  - authors:
+    - Chirag C Shetty, Sarthak Chakraborty (UIUC); Hubertus Franke, Larisa Shwartz,
+      Chandra Narayanaswami (IBM Research); Indranil Gupta (UIUC); Saurabh Jha (IBM
+      Research)
+    title: 'CPU-Limits kill Performance: Time to rethink Resource Control'
+  - authors:
+    - Wenda Tang, Yanan Yang (Cloud Computing Research Institute, China Telecom);
+      Jie Wu (Cloud Computing Research Institute, China Telecom; Department of Computer
+      and Information Sciences, Temple University)
+    title: 'Metis: A Non-Clairvoyant, Workflow-Aware OS Scheduler for Serverless Applications'
+  - authors:
+    - Bing Li (ByteDance); Yuquan Ren (Bytedance); Xinyi Song, Zhilei Liu (ByteDance);
+      Cong Xu (Bytedance); Jingyuan Zhang (ByteDance); Caixue Lin (Bytedance); Wu
+      Xiang (ByteDance); Rui Shi (Bytedance)
+    title: 'From Bottleneck to Breakthrough: Optimizing Scheduling for Hyperscale
+      Containerized Clusters'
+  - authors:
+    - Hongyu Lei, Shiyu Di, Chunhua Li, Ke Zhou (Huazhong University of Science and
+      Technology); Ming Xie, Fenqiang Yang, Jianping Zhu, Xiang Li, Kezhou Yan (Tencent
+      Inc.)
+    title: 'CoRe: Collaborative Replica Scheduling for Large-Scale Cloud Database
+      Services'
+  - authors:
+    - Rajini Wijayawardana (University of Chicago); Andrew A. Chien (University of
+      Chicago and Argonne National Laboratory)
+    title: Scheduling Cloud VMs on Variable Capacity Datacenters
+  title: Schedulers
+- end: 3:00 PM
+  start: 2:45 PM
+  talks: []
+  title: Break
+- end: 4:20 PM
+  start: 3:00 PM
+  talks:
+  - authors:
+    - Amit Samanta (University of Utah); Yankai Jiang (Northeastern University); Ryan
+      Stutsman, Rohan Basu Roy (University of Utah)
+    title: 'Water Footprint of Datacenter Applications: Methodological Implications
+      of Manufacturing, Operational, and Decommissioning Phases'
+  - authors:
+    - Liuzixuan Lin (University of Chicago); Andrew A Chien (University of Chicago
+      and Argonne National Laboratory)
+    title: 'Middlebox: Unlocking Datacenter Growth and Grid Decarbonization'
+  - authors:
+    - Amit Samanta, Ryan Stutsman, Rohan Basu Roy (University of Utah)
+    title: 'GridGreen: Integrating Serverless Computing in HPC Systems for Performance
+      and Sustainability'
+  - authors:
+    - Ning Li, Hong Jiang, Hao Che, Zhijun Wang (Department of Computer Science and
+      Engineering, The University of Texas at Arlington)
+    title: 'REEF: Energy-Efficient, Application-QoS-Aware Thread Processing in Oversubscribed
+      Server Environments'
+  title: Green Computing
+- end: 5:20 PM
+  start: 4:20 PM
+  talks:
+  - authors:
+    - Shamiek Mangipudi (Università della Svizzera italiana); Pavel Chuprikov (Télécom
+      Paris, Institut Polytechnique de Paris); Gerald Prendi, Patrick Eugster (Università
+      della Svizzera italiana)
+    title: Confidential Analytics with Scylla
+  - authors:
+    - Yuanhang Chen, Xiaosong Chen, Wenyan Chen, Huanle Xu (University of Macau)
+    title: 'FedDance: Efficient Participant Selection for Federated Learning in Highly
+      Dynamic Environments'
+  - authors:
+    - Yuzi Li, Zhigang Wang, Qinghua Zhang, Junfeng Zhao (Inner Mongolia University)
+    title: 'FedLTA: A Federated Long-Tail Alignment Framework via Global Class Anchors'
+  title: Privacy
+- start: 5:20 PM
+  talks: []
+  title: End of Day 1
+day2:
+- end: 10:50 AM
+  start: 8:30 AM
+  talks:
+  - authors:
+    - Ruihao Li, Shagnik Pal, Vineeth Narayan Pullu, Prasoon Sinha (The University
+      of Texas at Austin); Jeeho Ryoo (Fairleigh Dickinson University); Lizy K. John,
+      Neeraja J. Yadwadkar (The University of Texas at Austin)
+    title: 'Oneiros: KV Cache Optimization through Parameter Remapping for Multi-tenant
+      LLM Serving'
+  - authors:
+    - Saransh Gupta, Umesh Deshpande, Travis Janssen, Swaminathan Sundararaman (IBM
+      Research)
+    title: 'Symbiosis: Multi-Adapter Inference and Fine-Tuning'
+  - authors:
+    - Kaiyu Huang (Tongji University and Shenzhen Research Institute of Big Data,
+      The Chinese University of Hong Kong, Shenzhen); Hao Wu (HUST); Zhubo Shi, Han
+      Zou (Tongji University); Minchen Yu (School of Data Science, The Chinese University
+      of Hong Kong, Shenzhen and Shenzhen Research Institute of Big Data, The Chinese
+      University of Hong Kong, Shenzhen); Qingjiang Shi (Tongji University and Shenzhen
+      Research Institute of Big Data, The Chinese University of Hong Kong, Shenzhen)
+    title: 'AdaSpec: Adaptive Speculative Decoding for Fast, SLO-Aware Large Language
+      Model Serving'
+  - authors:
+    - Shiwei Zhang (The University of Hong Kong); Lansong Diao (Alibaba Group); Zisheng
+      Meng (The University of Hong Kong); Siyu Wang, Wei Lin (Alibaba Group); Chuan
+      Wu (The University of Hong Kong)
+    title: 'DyOrc: Efficient Serving of Dynamic Machine Learning Workflows'
+  - authors:
+    - Tao Luo, Kelvin K.W. Ng, Zhen Ping Khor, Sidharth Sankhe, Boon Thau Loo, Vincent
+      Liu (University of Pennsylvania)
+    title: Multiplexed Heterogeneous LLM Serving via Stage-Aligned Parallelism
+  - authors:
+    - Haoran Qiu, Anish Biswas (Microsoft); Zihan Zhao (University of Virginia); Jayashree
+      Mohan, Alind Khare, Esha Choukse, Íñigo Goiri (Microsoft); Zeyu Zhang, Haiying
+      Shen (University of Virginia); Chetan Bansal, Ram Ramjee, Rodrigo Fonseca (Microsoft)
+    title: 'ModServe: Modality- and Stage-Aware Resource Disaggregation for Scalable
+      Multimodal Model Serving'
+  - authors:
+    - Yihui Zhang (Beihang University); Han Shen (Kuaishou Inc.); Renyu Yang (Beihang
+      University); Di Tian (Kuaishou Inc.); Yuxi Luo, Menghao Zhang, Li Li, Chunming
+      Hu, Tianyu Wo (Beihang University); Chengru Song, Jin Ouyang (Kuaishou Inc.)
+    title: 'Cauchy: A Cost-Efficient LLM Serving System through Adaptive Heterogeneous
+      Deployment'
+  title: LLM Serving
+- end: 11:00 AM
+  start: 10:50 AM
+  talks: []
+  title: Break
+- end: 12:20 PM
   start: 11:00 AM
   talks:
   - authors:
-    - Xin Liu, Yuanyuan Huang, Tianyi Wang (Lanzhou University), Song Li (Zhejiang
-      University), Weina Niu (University of Electronic Science and Technology of China),
-      Jun Shen (University of Wollongong), Qingguo Zhou (Lanzhou University), Xiaokang
-      Zhou (Kansai University)
-    title: 'SQLStateGuard: Statement-Level SQL Injection Defense Based on Learning-Driven
-      Middleware'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698569
+    - Rohan Gandhi (Microsoft Research, India); Ankur Mallick (Microsoft)
+    title: 'PnM: Efficient Intra-Datacenter Calls Packing for Large Conferencing Services'
   - authors:
-    - Vikramank Singh (amazon), Zhao Song (nan), Balakrishnan (Murali) Narayanaswamy,
-      Kapil Eknath Vaidya, Tim Kraska (amazon)
-    title: 'Vista: Machine Learning based Database Performance Troubleshooting Framework
-      in Amazon RDS'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698519
+    - Ranjitha K, Ankit Sarma, Malsawmsanga Sailo, Arun Siddardha, Amrit Kumar, Praveen
+      Tammana (Indian Institute of Technology Hyderabad); Pravein Govindan Kannan,
+      Priyanka Naik (IBM Research)
+    title: 'PerfMon: Performance Monitoring of Host Network Stack'
   - authors:
-    - Manish Shetty (University of California, Berkeley and Microsoft), Yinfang Chen
-      (University of Illinois Urbana-Champaign and Microsoft), Gagan Somashekar, Minghua
-      Ma (Microsoft), Yogesh Simmhan (Indian Institute of Science and Microsoft),
-      Xuchao Zhang (Microsoft), Jonathan Mace (Microsoft Research), Dax Vandevoorde
-      (Agnes Scott College and Microsoft Research), Pedro Las-Casas (Microsoft Research),
-      Shachee Mishra Gupta (Microsoft), Suman Nath (Microsoft Research), Chetan Bansal,
-      Saravan Rajmohan
-    title: 'Building AI Agents for Autonomous Clouds: Challenges and Design Principles'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698525
+    - Debojeet Das, Kevin Prafull Baua, Aditya Kansara, Arghyadip Chakraborty, Dheeraj
+      Kurukunda (Indian Institute of Technology Bombay); Mythili Vutukuru (Indian
+      Institute of Technology, Bombay); Purushottam Kulkarni (Indian Institute of
+      Technology Bombay)
+    title: 'FLASH: Fast Linked AF_XDP Sockets for High Performance Network Function
+      Chains'
   - authors:
-    - Jae-Seok Kim, Seon-Jin Hwang, Joonho Seo, Jinmyeong Shin, Yoon-Ho Choi (Pusan National University)
-    title: 'Zero-SAD: Zero-Shot Learning Using Synthetic Abnormal Data for Abnormal
-      Behavior Detection on Private Cloud'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698533
-  - authors:
-    - "Yanlei Diao, Dominik Horn (Amazon), Andreas Kipf (Technische Universit\xE4\
-      t N\xFCrnberg), Oleksandr Shchur, Ines Benito, Wenjian Dong, Davide Pagano,\
-      \ Pascal Pfiel, Vikram Nathan, Balakrishnan Narayanaswamy, Tim Kraska (Amazon)"
-    title: 'Forecasting Algorithms for Intelligent Resource Scaling: An Experimental
-      Analysis'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698564
-  title: 'Session 2: Machine Learning Supporting Systems'
-  chair: "Prateek Sharma	(Indiana University)"
+    - Yazhuo Zhang, Jinqing Cai (ETH Zurich); Avani Wildani (Cloudflare); Ana Klimovic
+      (ETH Zurich)
+    title: Rethinking Web Cache Design for the AI Era
+  title: Network
 - end: 1:30 PM
-  start: 12:30 PM
+  start: 12:20 PM
   talks: []
-  title: Lunch
-- end: 3:30 PM
+  title: Break
+- end: 3:50 PM
   start: 1:30 PM
   talks:
   - authors:
-    - Yuqiao Lan (Institute of Computing Technology, Chinese Academy of Sciences;
-      University of Chinese Academy of Sciences), Xiaohui Peng (Institute of Computing
-      technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences),
-      Yifan Wang (Institute of Computing Technology, Chinese Academy of Sciences;
-      University of Chinese Academy of Sciences)
-    title: 'Snapipeline: Accelerating Snapshot Startup for FaaS Containers'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698513
+    - Haoyu Li, Jingkai Fu (Columbia University); Qing Li, Windsor Hsu (Alibaba Cloud);
+      Asaf Cidon (Columbia University)
+    title: 'DFUSE: Strongly Consistent Write-Back Kernel Caching for Distributed Userspace
+      File Systems'
   - authors:
-    - Minghao Xie, Chen Qian, Heiner Litz (University of California Santa Cruz)
-    title: 'En4S: Enabling SLOs in Serverless Storage Systems'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698529
+    - Steven W. D. Chien (University of Edinburgh); Kento Sato (RIKEN R-CCS); Artur
+      Podobas, Niclas Jansson, Stefano Markidis (KTH Royal Institute of Technology);
+      Michio Honda (University of Edinburgh)
+    title: 'ParaLog: Consistent Host-side Logging for Parallel Checkpoints'
   - authors:
-    - Yifan Sui (Shanghai Jiao Tong University), Hanfei Yu (Stevens Institute of Technology),
-      Yitao Hu (Tianjin University), Jianxun Li (Shanghai Jiao Tong University), Hao
-      Wang (Stevens Institute of Technology)
-    title: 'Pre-Warming is Not Enough: Accelerating Serverless Inference With Opportunistic
-      Pre-Loading'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698509
+    - Yineng Yan, William Ruys, Hochan Lee, Ian Henriksen, Arthur Peters, Sean Stephens,
+      Bozhi You, Henrique Fingler (University of Texas at Austin); Martin Burtscher
+      (Texas State University); Milos Gligoric, Keshav Pingali, Mattan Erez, George
+      Biros, Christopher J. Rossbach (University of Texas at Austin)
+    title: 'VLCs: Managing Parallelism with Virtualized Libraries'
   - authors:
-    - Xinmin Zhang, Qiang He, Hao Fan, Song Wu (Huazhong University of Science and
-      Technology)
-    title: 'Faascale: Scaling MicroVM Vertically for Serverless Computing with Memory
-      Elasticity'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698512
+    - Lucas Lebow, Mason Dunkle (Unaffiliated); Christopher Siems (Clark University);
+      Jonathan Zarnstorff (BoreDM); Lewis Tseng (UMass Lowell)
+    title: 'Revisiting State Machine Replication in Practice: Lessons from Building
+      an etcd-inspired System'
   - authors:
-    - Vishwanath Seshagiri (Emory University), Abhinav Gupta, Vahab Jabrayilov (Columbia
-      University), Avani Wildani (Emory University and Cloudflare), Kostis Kaffes,
-      Abhinav Gupta (Columbia University)
-    title: 'Rethinking the Networking Stack for Serverless Environments: A Sidecar
-      Approach'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698561
+    - Yi Hua, Xiulong Liu, Hao Xu, Chenyu Zhang, Gaowei Shi, Keqiu Li (Tianjin University);
+      Muhammad Shahzad (Department of Computer Science, North Carolina State University,
+      Raleigh, NC, USA); Guyue (Grace) Liu (Peking University)
+    title: 'Orcas: A DAG-based Consensus Approach with Linear Communication Overhead'
   - authors:
-    - "Marcin Copik, Alexandru Calotoiu (ETH Zurich, Switzerland), Gyorgy Rethy (Oracle\
-      \ Labs, Switzerland), Roman B\xF6hringer (OpenCore GmbH, Switzerland), Rodrigo\
-      \ Bruno (INESC-ID, Instituto Superior Te\u0301cnico, Universidade de Lisboa,\
-      \ Portugal), Torsten Hoefler (ETH Zurich, Switzerland)"
-    title: 'Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless
-      Processes'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698567
-  title: Session 3 (Speed and Scale in Serverless)
-  chair: "Mohammad Shahrad	(University of British Columbia)"
+    - Nenad Milošević (Università della Svizzera italiana (USI)); Robert Soulé (Yale
+      University); Fernando Pedone (Università della Svizzera italiana (USI))
+    title: The case for synchronous distributed protocols in public clouds
+  - authors:
+    - Davide Rovelli (Università della Svizzera Italiana, SAP SE); Christian Faerber,
+      Graham McKenzie (Altera); Ali Pahlevan (SAP SE); Sina Darabi (Università della
+      Svizzera italiana); Patrick Jahnke (turbalance); Patrick Eugster (Università
+      della Svizzera italiana)
+    title: 'Nano-consensus: Ultra-fast, Quorum-less Coordination on the Wire'
+  title: Consistency
 - end: 4:00 PM
-  start: 3:30 PM
+  start: 3:50 PM
   talks: []
   title: Break
-- end: 6:00 PM
+- end: 5:40 PM
   start: 4:00 PM
   talks:
   - authors:
-    - Rubaba Hasan, Timothy Zhu, Bhuvan Urgaonkar (The Pennsylvania State University)
-    title: 'AutoBurst: Autoscaling Burstable Instances for Cost-effective Latency
-      SLOs'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698530
+    - Atsushi Koshiba, Charalampos Mainas, Pramod Bhatotia (Technical University of
+      Munich)
+    title: 'Funky: Cloud-Native FPGA Virtualization and Orchestration'
   - authors:
-    - Carlos Segarra, Ivan Durev, Peter Pietzuch (Imperial College London)
-    title: Is It Time To Put Cold Starts In The Deep Freeze?
-    url: https://dl.acm.org/doi/10.1145/3698038.3698527
+    - Paul Elvinger, Foteini Strati (ETH Zurich); Natalie Enright Jerger (University
+      of Toronto); Ana Klimovic (ETH Zurich)
+    title: Understanding GPU Resource Interference One Level Deeper
   - authors:
-    - "Kevin Alarc\xF3n Negy, Tycho Nightingale, Hakim Weatherspoon, Zhiming Shen\
-      \ (Exostellar, inc.)"
-    title: Towards Swap-Free, Continuous Ballooning for Fast, Cloud-Based Virtual
-      Machine Migrations
-    url: https://dl.acm.org/doi/10.1145/3698038.3698543
+    - Hyeon-Jun Jang, Sang-Jae Kim (Konkuk University); Weikuan Yu (Florida State
+      University); Hyun-Wook Jin (Konkuk University)
+    title: Spatio-Temporal Resource Control for Cloud-Native GPU Provisioning
   - authors:
-    - Shiv Bhushan Tripathi, Debadatta Mishra (Indian Institute of Technology Kanpur,
-      India)
-    title: 'PCLive: Pipelined Restoration of Application Containers for Reduced Service
-      Downtime'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698545
+    - Haoxuan Yu, Sheng Yao, Wei Wang (Hong Kong University of Science and Technology)
+    title: 'ZipBatch: Multi-Tenant GPU Batching with Dual-Resource Regulation'
   - authors:
-    - Smita Vijayakumar, Anil Madhavapeddy, Evangelia Kalyvianaki (University of Cambridge)
-    title: Scheduling for Reduced Tail Task Latencies in Highly Utilized Datacenters
-    url: https://dl.acm.org/doi/10.1145/3698038.3698522
-  - authors:
-    - Vaibhav Bhosale, Ada Gavrilovska, Ketan Bhardwaj (Georgia Institute of Technology)
-    title: 'Krios: Scheduling Abstractions and Mechanisms for Enabling a LEO Compute
-      Cloud'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698566
-  title: 'Session 4: The Elastic Cloud'
-  chair: "Shixiong Qi	(University of Kentucky)"
-
-day2:
-- end: 8:00 AM
-  start: 7:30 AM
+    - Ioannis Zarkadas (Columbia University); Amanda Tomlinson (University of California,
+      San Diego); Asaf Cidon (Columbia University); Baris Kasikci (University of Washington);
+      Ofir Weisse (Google)
+    title: 'Snap & Replay: A new way to analyze uarch-scale performance bottlenecks
+      for ML accelerators'
+  title: Co-processors
+- start: 5:40 PM
   talks: []
-  title: Breakfast
-- end: 9:00 AM
-  start: 8:00 AM
-  title: Women in Systems Meetup
-  details_url: meetup.html
-  details: "Please join us during breakfast for a Women in Systems Meetup."
-- end: 10:15 AM
-  start: 9:00 AM
+  title: End of Day 2
+day3:
+- end: 10:30 AM
+  start: 8:30 AM
   talks:
   - authors:
-    - P. C. Sruthi, Zinan Guo, Deming Chu (Purdue University), Zhengyan Chen (University
-      of Georgia), Yongle Zhang (Purdue University)
-    title: 'Demystifying the Fight Against Complexity: A Comprehensive Study of Live
-      Debugging Activities in Production Cloud Systems'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698568
+    - Shuang Zeng, Haitao Zhang, Zezhong Yan (Beijing University of Posts and Telecommunications)
+    title: 'CoMPI: Coordinated Model Merging and Parallel Inference at Edge'
   - authors:
-    - Chaoyun Zhang (Microsoft), Randolph Yao (Microsoft Azure), Si Qin (Microsoft
-      Research), Ze Li, Shekhar Agrawal (Microsoft), Binit Mishra, Tri Tran (Microsoft
-      Azure), Minghua Ma (Microsoft Research), Qingwei Lin (Microsoft Research, Beijing,
-      China), Murali Chintalapati (Microsoft), Dongmei Zhang (Microsoft Research)
-    title: 'Deoxys: A Causal Inference Engine for Unhealthy Node Mitigation in Large-scale
-      Cloud Infrastructure'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698534
+    - Yuzhuo Yang, Kaihua Fu, Quan Chen (Shanghai Jiao Tong University); Deze Zeng
+      (China University of Geosciences); Shuo Quan (Cloud Computing Research Institute,
+      China Telecom); Jie Wu (Temple University); Minyi Guo (Shanghai Jiao Tong University)
+    title: 'FaaSGNN: Enabling Memory Efficient and Low Latency GNN Inference Services
+      with Serverless Computing'
   - authors:
-    - Ziwei Huang, Mengyao Xie, Shibo Tang (State Key Lab of Processors, Institute
-      of Computing Technology, CAS; University of Chinese Academy of Sciences), Zihao
-      Chang (State Key Lab of Processors, Institute of Computing Technology, CAS;
-      University of Chinese Academy of Sciences; Zhongguancun Laboratory), Zhicheng
-      Yao, Yungang Bao (State Key Lab of Processors, Institute of Computing Technology,
-      CAS; University of Chinese Academy of Sciences), Sa Wang (State Key Lab of Processors,
-      Institute of Computing Technology, CAS; University of Chinese Academy of Sciences;
-      Zhongguancun Laboratory)
-    title: 'INS: Identifying and Mitigating Performance Interference in Clouds via Interference-Sensitive Paths'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698508
+    - Sudipta Saha Shubha, Haiying Shen (University of Virginia); Ganesh Ananthanarayanan
+      (Microsoft)
+    title: 'CIS: Checkpointed Inference for Data Drift-Resilient Model Serving at
+      Edge Servers'
   - authors:
-    - Nathan Ng (University of Massachusetts Amherst), Abel Souza (University of California
-      Santa Cruz), Ahmed Ali-Eldin (Chalmers University of Technology), David Irwin,
-      Don Towsley, Prashant Shenoy, Abel Souza (University of Massachusetts Amherst)
-    title: 'TailClipper: Reducing Tail Response Time of Distributed Services Through
-      System-Wide Scheduling'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698554
-  title: 'Session 1: When Things Go Wrong in the Cloud'
-  chair: "Saurabh Jha	(IBM Research)"
+    - Yanying Lin (University of Chinese Academy of Sciences); Shuaipeng Wu (Chinese
+      Academy of Sciences, Alibaba Group); Shutian Luo (University of Virginia); Hong
+      Xu (The Chinese University of Hong Kong); Haiying Shen (University of Virginia);
+      Chong Ma, Min Shen, Le Chen (AIOS Team, Alibaba Group Inc); Chengzhong Xu (University
+      of Macau); Lin Qu (AIOS Team, Alibaba Group Inc); Kejiang Ye (Chinese Academy
+      of Sciences)
+    title: 'Understanding Diffusion Model Serving in Production: A Top-Down Analysis
+      of Workload, Scheduling, and Resource Efficiency'
+  - authors:
+    - Joel Wolfrath, Daniel Frink, Abhishek Chandra (University of Minnesota)
+    title: 'SneakPeek: Data-Aware Model Selection and Scheduling for Inference Serving
+      on the Edge'
+  - authors:
+    - Li Wu, Walid Hanafy (University of Massachusetts Amherst); Tarek Abdelzaher
+      (UIUC); David Irwin (University of Massachusetts Amherst); Jesse Milzman (Army
+      Research Laboratory); Prashant Shenoy (University of Massachusetts Amherst)
+    title: 'FailLite: Failure-Resilient Model Serving for Resource-Constrained Edge
+      Environments'
+  title: Cloud-for-ML
 - end: 10:45 AM
-  start: 10:15 AM
+  start: 10:30 AM
   talks: []
   title: Break
-- end: 12:15 PM
+- end: 12:25 PM
   start: 10:45 AM
   talks:
   - authors:
-    - Yanning Yang, Dong Du (Shanghai Jiao Tong University), Haitao Song (Shanghai
-      Artificial Intelligence Research Institute), Yubin Xia (Shanghai Jiao Tong University)
-    title: On-demand and Parallel Checkpoint/Restore for GPU Applications
-    url: https://dl.acm.org/doi/10.1145/3698038.3698510
+    - Yuzheng Zhang, Renyu Yang, Junhong Liu, Weihan Jiang, Tianyu Ye (Beihang University);
+      Yiqiao Liao, Penghao Zhang, Tiezi Zhang, Kun Shang (Kuaishou Inc.); Tianyu Wo,
+      Chunming Hu (Beihang University); Chengru Song, Jin Ouyang (Kuaishou Inc.)
+    title: 'Cuckoo: Deadline-Aware Job Packing on Heterogeneous GPUs for DL Model
+      Training'
   - authors:
-    - Umesh Deshpande, Travis Janssen, Mudhakar Srivatsa, Swaminathan Sundararaman
-      (IBM Research)
-    title: 'MoEsaic: Shared Mixture of Experts'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698521
+    - Maziyar Nazari (University of Colorado Boulder); Daniel Noland (Unaffiliated);
+      Giulio Sidoretti, Erika Hunhoff, Tamara Silbergleit Lehman (University of Colorado
+      Boulder); Eric Keller (University of Colorado, Boulder)
+    title: 'THORN-ML: Transparent Hardware Offloaded Resilient Networks for RDMA based
+      Distributed ML Workloads'
   - authors:
-    - Xiaoyang Zhao (The University of Hong Kong), Siran Yang, Jiamang Wang, Lansong
-      Diao, Lin Qu (Alibaba Group), Chuan Wu (The University of Hong Kong)
-    title: 'FaPES: Enabling Efficient Elastic Scaling for Serverless Machine Learning
-      Platforms'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698548
+    - Rui Wei, Hanfei Yu (Stevens Institute of Technology); Xikang Song (University
+      of Chicago); Jian Li (Stony Brook University); Devesh Tiwari (Northeastern University);
+      Ying Mao (Fordham University); Hao Wang (Stevens Institute of Technology)
+    title: Multi-Agent Reinforcement Learning with Serverless Computing
   - authors:
-    - Bing-Shiun Han, Tathagata Paul, Zhenhua Liu, Anshul Gandhi (Stony Brook University)
-    title: 'KACE: Kernel-Aware Colocation for Efficient GPU Spatial Sharing'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698555
+    - Talha Mehboob (University of Massachusetts Amherst); Luanzheng Guo, Nathan R.
+      Tallent (Pacific Northwest National Laboratory); Michael Zink, David Irwin (University
+      of Massachusetts Amherst)
+    title: 'PowerTrip: Exploiting Federated Heterogeneous Datacenter Power for Distributed
+      ML Training'
   - authors:
-    - Zeyuan Zuo (University of Hong Kong), Ningxin Su, Baochun Li (University of
-      Toronto), Teng Zhang (University of Hong Kong)
-    title: 'Pack: Towards Communication-Efficient Homomorphic Encryption in Federated
-      Learning'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698557
-  title: 'Session 2: Systems Supporting Machine Learning II'
-  chair: "Lin Wang	(Paderborn University)"
-- end: 1:15 PM
-  start: 12:15 PM
-  talks: []
-  title: Lunch
-- end: 3:15 PM
-  start: 1:15 PM
-  talks:
-  - authors:
-    - Qiangyu Pei (Huazhong University of Science and Technology), Lin Wang (Paderborn
-      University), Dong Zhang, Bingheng Yan (Inspur Data Co., Ltd.), Chen Yu (Huazhong
-      University of Science and Technology), Fangming Liu (Huazhong University of
-      Science and Technology & Peng Cheng Laboratory)
-    title: 'InferCool: Enhancing AI Inference Cooling through Transparent, Non-Intrusive
-      Task Reassignment'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698556
-  - authors:
-    - Jorge Murillo, Walid A. Hanafy, David Irwin (University of Massachusetts Amherst),
-      Ramesh Sitaraman (University of Massachusetts Amherst and Akamai Tech), Prashant
-      Shenoy (University of Massachusetts Amherst)
-    title: 'CDN-Shifter: Leveraging Spatial Workload Shifting to Decarbonize Content
-      Delivery Networks'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698516
-  - authors:
-    - Prateek Sharma, Alexander Fuerst (Indiana University Bloomington)
-    title: Accountable Carbon Footprints and Energy Profiling For Serverless Functions
-    url: https://dl.acm.org/doi/10.1145/3698038.3698531
-  - authors:
-    - Noman Bashir, Varun Gohil (MIT), Mohammad Shahrad (University of British Columbia),
-      David Irwin (University of Massachusetts, Amherst), Anagha Belavadi Subramanya,
-      Elsa Olivetti, Christina Delimitrou (MIT)
-    title: 'The Sunk Carbon Fallacy: Rethinking Carbon Footprint Metrics for Effective
-      Carbon-Aware Scheduling'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698542
-  - authors:
-    - Jinghan Sun, Zibo Gong (UIUC), Anup Agarwal (CMU), Shadi Noghabi, Ranveer Chandra
-      (Microsoft Research), Marc Snir, Jian Huang (UIUC)
-    title: Exploring the Efficiency of Renewable Energy-based Modular Data Centers
-      at Scale
-    url: https://dl.acm.org/doi/10.1145/3698038.3698544
-  - authors:
-    - Rohan Basu Roy (Northeastern University), Raghavendra Kanakagiri (IIT Tirupati),
-      Yankai Jiang, Devesh Tiwari (Northeastern University)
-    title: The Hidden Carbon Footprint of Serverless Computing
-    url: https://dl.acm.org/doi/10.1145/3698038.3698546
-  title: 'Session 3: The Green Cloud'
-  chair: "Timothy Zhu	(The Pennsylvania State University)"
-- end: 3:45 PM
-  start: 3:15 PM
-  talks: []
-  title: Break
-- end: 5:45 PM
-  start: 3:45 PM
-  talks:
-  - authors:
-    - Masanori Misono, Peter Okelmann, Charalampos Mainas, Pramod Bhatotia (TU Munich)
-    title: 'uIO: Lightweight and Extensible Unikernels'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698518
-  - authors:
-    - Jonathan Zarnstorff, Lucas Lebow (Unaffiliated), Christopher Siems, Dillon Remuck,
-      Colin Ruiz (Clark University), Lewis Tseng (UMass Lowell)
-    title: 'Racos: Improving Erasure Coding State Machine Replication using Leaderless
-      Consensus'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698511
-  - authors:
-    - Ziliang Lai, Fan Cui (The Chinese University of Hong Kong), Hua Fan (Alibaba
-      Cloud), Eric Lo (The Chinese University of Hong Kong), Wenchao Zhou, Feifei
-      Li (Alibaba Cloud)
-    title: Occam's Razor for Distributed Protocols
-    url: https://dl.acm.org/doi/10.1145/3698038.3698514
-  - authors:
-    - Hang Xiong, Cheng Qu, Jing Li (University of Science and Technology of China)
-    title: 'VWeiST: A Scalable and Efficient Proof-of-Stake Blockchain Consensus'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698550
-  - authors:
-    - Yu-Hsun Chiang, Wei-Lin Chang, Shih-Wei Li, Jan-Ting Du (National Taiwan University)
-    title: Securing a Multiprocessor KVM Hypervisor with Rust
-    url: https://dl.acm.org/doi/10.1145/3698038.3698562
-  - authors:
-    - Federico Parola (Politecnico di Torino), Shixiong Qi, Anvaya Bheemanakone Narappa,
-      K. K. Ramakrishnan (University of California, Riverside), Fulvio Risso (Politecnico
-      di Torino)
-    title: 'SURE: Secure Unikernels Make Serverless Computing Rapid and Efficient'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698558
-  title: 'Session 4: The Basics'
-  chair: "Ketan Bhardwaj	(Georgia Tech)"
-
-
-day3:
-- end: 8:00 AM
-  start: 7:30 AM
-  talks: []
-  title: Breakfast
-- end: 9:00 AM
-  start: 8:00 AM
-  talks:
-  - authors:
-    - Anastasia Ailamaki (EPFL)
-    title: The New Memory Wall and how it changes database system design
-  title: Keynote 2
-- end: 10:15 AM
-  start: 9:00 AM
-  talks:
-  - authors:
-    - Weiyue Zhao (State Key Laboratory of Processors, Institute of Computing Technology,
-      Chinese Academy of Sciences, Beijing, China. University of Chinese Academy of
-      Sciences, Beijing, China.), Jingya Wu, Wenyan Lu, Xiaowei Li, Guihai Yan (State
-      Key Laboratory of Processors, Institute of Computing Technology, Chinese Academy
-      of Sciences, Beijing, China.)
-    title: 'TianMen: a DPU-based storage network offloading structure for disaggregated
-      datacenters'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698528
-  - authors:
-    - Yunsheng Dong, Boju Chen, Yanqi Pan, Xiangyu Zou, Wen Xia (Harbin Institute
-      of Technology, Shenzhen)
-    title: 'H2C-Dedup: Reducing I/O and GC Amplification for QLC SSDs from the Deduplication
-      Metadata Perspective'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698507
-  - authors:
-    - Yekang Zhan, Haichuan Hu, Xiangrui Yang, Shaohua Wang, Qiang Cao (Huazhong University
-      of Science and Technology), Hong Jiang (UT Arlington), Jie Yao, yekang zhan,
-      Haichuan Hu (Huazhong University of Science and Technology)
-    title: 'RomeFS: A CXL-SSD Aware File System Exploiting Synergy of Memory-Block
-      Dual Paths'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698539
-  - authors:
-    - Soheil Khadirsharbiyani (Pennsylvania State University), Nima Elyasi (Meta),
-      Armin Haj Aboutalebi (Nvidia), Changho Choi (Samsung Semiconductor Inc.), Chun-Yi
-      Liu (The Pennsylvania State University), Mahmut Kandemir (Pennsylvania State
-      University)
-    title: 'SmartGraph: A Framework for Graph Processing in Computational Storage'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698538
-  title: Session 1 (Bits on Disk)
-  chair: "Muhammad Ahmad	(Seagate Technology)"
-- end: 10:30 AM
-  start: 10:15 AM
-  talks: []
-  title: Break
-- end: 12:30 PM
-  start: 10:30 AM
-  talks:
-  - authors:
-    - Shaowen Xu (Institute of Information Engineering, Chinese Academy of Sciences;
-      School of Cyber Security, University of Chinese Academy of Sciences), Qihang
-      Zhou (Institute of Information Engineering, Chinese Academy of Sciences), Zhicong
-      Zhang, Xiaoqi Jia (Institute of Information Engineering, Chinese Academy of
-      Sciences; School of Cyber Security, University of Chinese Academy of Sciences),
-      Donglin Liu (Sinochem Energy-Tech Co., Ltd.), Heqing Huang, Haichao Du, Zhenyu
-      Song (Institute of Information Engineering, Chinese Academy of Sciences)
-    title: 'ConMonitor: Lightweight Container Protection with Virtualization and VM
-      Functions'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698520
-  - authors:
-    - Yancan Mao, Ruohang Yin (National University of Singapore), Liyuan Lei, Peng
-      Ye, Shengfu Zou, Shizheng Tang, Yunzhe Guo, Ye Yuan, Xiaochen Yu, Bo Wan, Yunfei
-      Gong, Changli Gao, Guanghui Zhang, Jian Shen, Rui Shi (Bytedance Inc.), Richard
-      T. B. Ma, Ruohang Yin (National University of Singapore)
-    title: 'ByteMQ: A Cloud-native Streaming Data Layer in ByteDance'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698536
-  - authors:
-    - Nishant Gupta, Iyswarya Narayanan, Shivam Handa, Sayak Chakraborti, Pankit Thapar,
-      Baohua Shan, Ariel Rao, Yuanlai Liu, Pengyuan Wang, Yuqing Wu, Qingyi Gao, Chris
-      Chao-Chun Cheng, Sihan You, Louis Huang, Jingyuan Fan, Kenny Yu, Kevin Lin,
-      Tengfei Mu, Parth Malani, Haiying Wang, Trey Lu, Peter Zhang (Meta)
-    title: Dynamic Idle Resource Leasing To Safely Oversubscribe Capacity At Meta
-    url: https://dl.acm.org/doi/10.1145/3698038.3698537
-  - authors:
-    - Xinyu Han, Yuan Gao, Gabriel Parmer, Timothy Wood (George Washington University)
-    title: 'Byways: High-Performance, Isolated Network Functions for Multi-Tenant
-      Cloud Servers'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698547
-  - authors:
-    - Jungeun Shin (University of Illinois at Urbana-Champaign), Diana Arroyo, Asser
-      Tantawi, Chen Wang, Alaa Youssef (IBM Research), Rakesh Nagi (Singapore University
-      of Technology and Design)
-    title: Cloud-native Workflow Scheduling using a Hybrid Priority Rule, Dynamic
-      Resource Allocation, and Dynamic Task Partition
-    url: https://dl.acm.org/doi/10.1145/3698038.3698551
-  - authors:
-    - Pawissanutt Lertpongrujikorn (University of North Texas), Hai Duc Nguyen (Argonne
-      National Laboratory and University of Chicago), Mohsen Amini Salehi, Pawissanutt
-      Lertpongrujikorn (University of North Texas)
-    title: Streamlining Cloud-Native Application Development and Deployment with Robust
-      Encapsulation
-    url: https://dl.acm.org/doi/10.1145/3698038.3698552
-  title: Session 2 (In the Cloud)
-  chair: "Gagan Somashekar	(Microsoft)"
+    - Sabiha Afroz, Redwan Ibne Seraj Khan (Virginia Tech); Hadeel Albahar (Kuwait
+      University); Jingoo Han, Ali R. Butt (Virginia Tech)
+    title: '10Cache: Heterogeneous Resource-Aware Tensor Caching and Migration for
+      LLM Training'
+  title: Training
 - end: 1:30 PM
-  start: 12:30 PM
+  start: 12:25 PM
   talks: []
-  title: Lunch
-- end: 3:30 PM
+  title: Break
+- end: 3:10 PM
   start: 1:30 PM
   talks:
   - authors:
-    - "Tobias Pfandzelter, David Bermbach (Technische Universit\xE4t Berlin & Einstein\
-      \ Center Digital Future)"
-    title: 'Komet: A Serverless Platform for Low-Earth Orbit Edge Services'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698517
+    - David Li (Yeshiva University); Angela Li (Stony Brook University)
+    title: Cloud-Native Digital Twin Orchestration for Real-Time Decision Optimization
+      Using Fuzzy Constraints and Reinforcement Learning
   - authors:
-    - Yanjie Song, Tianyuan Wu, Yuanhao Li, Guancheng Li, Yuchen Liu, Shu Yin (ShanghaiTech
-      University), Wei Xue (Tsinghua University), Junchao Wang (China Meteorological
-      Administration)
-    title: A Data Optimizer for Region-Aware Self-describing Files in Scientific Computing
-    url: https://dl.acm.org/doi/10.1145/3698038.3698526
+    - Lei Liu (Inspur Cloud Information Technology Co.,Ltd.); Yinling Zhang (JINAN
+      THERMAL POWER GROUP CO..LTD)
+    title: 'DRAM Failure Prediction with Correctable Error Spatial Patterns: A Hybrid
+      Learning Approach'
   - authors:
-    - Yijian Liu, Rodrigo Nunes Laigner, Yongluan Zhou (University of Copenhagen)
-    title: Rethinking State Management in Actor Systems for Cloud-Native Applications
-    url: https://dl.acm.org/doi/10.1145/3698038.3698540
+    - Qingfu Wu, Pengfei Chen, Yilun Wang (Sun Yat-sen University)
+    title: Defragmentation Scheduling with Deep Reinforcement Learning in Shared GPU
+      Clusters
   - authors:
-    - Xizhe Yin, Zhijia Zhao, Rajiv Gupta (University of California, Riverside)
-    title: 'IncBoost: Scaling Incremental Graph Processing for Edge Deletions and
-      Weight Updates'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698524
+    - Romolo Marotta, Gabriele Russo Russo, Francesco Quaglia (University of Rome
+      Tor Vergata); Pierangelo Di Sanzo (Roma Tre University)
+    title: A Bootstrapping Technique for Reducing the Costs of Machine Learning Models
+      for Predicting Execution Times in IaaS Clouds
   - authors:
-    - "Shiva Jahangiri (Santa Clara University), Michael Carey (University of California,\
-      \ Irvine), Johann-Christoph Freytag (Humboldt-Universit\xE4t zu Berlin)"
-    title: 'Memory Management in Complex Join Queries: A Re-evaluation Study'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698565
-  - authors:
-    - Shruti Mohanty, Vivek M. Bhasi, Myungjun Son, Mahmut Kandemir, Chita Das (Pennsylvania
-      State University), Vivek Bhasi (The Pennsylvania State University, University
-      Park)
-    title: 'FAAStloop: Optimizing Loop-Based Applications for Serverless Computing'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698560
-  title: 'Session 3: Algorithms and Applications'
-  chair: "Vidushi Vashishth	(Google)"
-- end: 4:00 PM
-  start: 3:30 PM
-  talks: []
-  title: Break
-- end: 5:45 PM
-  start: 4:00 PM
+    - Shruti Dongare, Redwan Ibne Seraj Khan (Virginia Tech); Hadeel Albahar (Kuwait
+      University); Nannan Zhao (Northwestern Polytechnical University, China); Diego
+      Meléndez-Maita, Ali R. Butt (Virginia Tech)
+    title: Hybrid Learning and Optimization-Based Dynamic Scheduling for DL Workloads
+      on Heterogeneous GPU Clusters
+  title: ML-for-Cloud
+- end: 4:10 PM
+  start: 3:10 PM
   talks:
   - authors:
-    - Xinwei Fu, Yida Wang, Zhen Zhang, Ron Diamant, Randy Huang, Rahul Solanki, Fei
-      Wu, Mohammad El-Shabani, Haozheng Fan, Guangtai Huang (Amazon Web Services)
-    title: Distributed Training of Large Language Models on AWS Trainium
-    url: https://dl.acm.org/doi/10.1145/3698038.3698535
+    - Bicheng Yang, Jingkai He, Dong Du, Yubin Xia, Haibo Chen (Shanghai Jiao Tong
+      University)
+    title: Offloading Cloud-Native Infrastructure with XpuPod
   - authors:
-    - Xue Li (Alibaba Group), Cheng Guo (Tsinghua University), Kun Qian (Alibaba Group),
-      Menghao Zhang, Mengyu Yang (Unaffiliated), Mingwei Xu (Tsinghua University)
-    title: Near-Lossless Gradient Compression for Data-Parallel Distributed DNN Training
-    url: https://dl.acm.org/doi/10.1145/3698038.3698541
+    - Xiaojun Guo, Guangjie Xing, Hua Wang, Ke Zhou (Huazhong University of Science
+      an Technology); Ming Xie, Fenqiang Yang, Min Fu, Bin Xu, Jianying Hu, Guangchao
+      Yang (Tencent Technology Co., Ltd.)
+    title: 'DuoAdmit: Dual-Layer Cache Admission for Load-Balancing Hybrid-Redundancy
+      Block Storage'
   - authors:
-    - Diana Petrescu, Arsany Guirguis (EPFL), Do Le Quoc, Javier Picorel (Huawei Munich
-      Research Center), Rachid Guerraoui (EPFL), Florin Dinu (Huawei Munich Research
-      Center)
-    title: Accelerating Transfer Learning with Near-Data Computation on Cloud Object
-      Stores
-    url: https://dl.acm.org/doi/10.1145/3698038.3698549
+    - Yaoxuan Li, Pu Pang, Yecheng Yang, Quan Chen, Zhengxuan Yan (Shanghai Jiao Tong
+      University); Guoyao Xu, Guodong Yang, Liping Zhang (Alibaba Group); Minyi Guo
+      (Shanghai Jiao Tong University)
+    title: 'WDP: Mitigating Interference in CPU Sharing Through Wake-up Delay Driven
+      Preemption for QoS-aware Co-location'
+  title: Infrastructure
+- end: 5:50 PM
+  start: 4:10 PM
+  talks:
   - authors:
-    - Amey Agrawal (Georgia Institute of Technology), Sameer Reddy (Cisco Inc.), Satwik
-      Bhattamishra (University of Oxford), Venkata Prabhakara Sarath Nookala (Meta
-      Inc.), Vidushi Vashishth (Google Inc.), Kexin Rong, Alexey Tumanov (Georgia
-      Institute of Technology)
-    title: 'Inshrinkerator: Compressing Deep Learning Training Checkpoints via Dynamic
-      Quantization'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698553
+    - Shuwen Sun, Isaac Khor, Ji-Yong Shin, Peter Desnoyers (Northeastern University)
+    title: A Fast, Efficient, and Strongly-Consistent Object Store
   - authors:
-    - Ziji Shi, Jialin Li, Yang You (National University of Singapore)
-    title: 'ParaGAN: A Scalable Distributed Training Framework for Generative Adversarial
-      Networks'
-    url: https://dl.acm.org/doi/10.1145/3698038.3698563
-  title: 'Session 4: Systems Supporting Machine Learning III: Training'
-  chair: "Noman Bashir	(MIT)"
-- start: 5:45 PM
-  title: Closing
+    - Huaifeng Zhang (Chalmers University of Technology and University of Gothenburg);
+      Mohannad Alhanahnah (University of Wisconsin-Madison); Philipp Leitner, Ahmed
+      Ali-Eldin (Chalmers University of Technology and University of Gothenburg)
+    title: 'BLAFS: A Bloat-Aware Container File System'
+  - authors:
+    - Devashish R. Purandare, Peter Alvaro (University of California, Santa Cruz);
+      Avani Wildani (Emory University and Cloudflare); Darrell D. E. Long (University
+      of California, Santa Cruz); Ethan L. Miller (Pure Storage / University of California,
+      Santa Cruz)
+    title: 'Valet: Efficient Data Placement on Modern SSDs'
+  - authors:
+    - Wenhao Lv, Hao Guo, Qing Wang, Youyou Lu, Jiwu Shu (Tsinghua University)
+    title: Accelerating Distributed Filesystem Metadata Service via Decoupling Directory
+      Semantics from Metadata Indexing
+  - authors:
+    - Mincheol Sung (Virginia Tech); Ruslan Nikolaev (The Pennsylvania State University);
+      Binoy Ravindran (Virginia Tech)
+    title: Scalable and Fault-Tolerant Storage and File System Services with Non-Blocking
+      Synchronization for Private Clouds
+  title: Storage
+- end: 6:00 PM
+  start: 5:50 PM
+  talks: []
+  title: Closing remarks
+- start: 6:00 PM
+  talks: []
+  title: End of SoCC '25!

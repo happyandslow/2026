@@ -2,37 +2,45 @@
 layout: default
 ---
 
-{% include slider.html content="<h2>Conference schedule</h2>"%}
+{% include slider.html content="
+<h2>Conference schedule</h2>
+"%}
 
 <!-- Content -->
 <div class="block">
-<div class="container">
-<div class="row">
-  <div class="col-md-9">
-    <section id="main-content">
-      <div class="section-content">
-        <h2>Schedule</h2>
-	<!-- <h4><b>Proceedings of SoCC 2024 with free and open access to all papers is available via <a href="https://dl.acm.org/doi/proceedings/10.1145/3620678" target="_blank" style="text-decoration:underline;">ACM DL</a></b></h4> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <section id="main-content">
+                    <div class="section-content">
+                        <h2>Schedule</h2>
+                        <!-- <h4><b>Proceedings of SoCC 2024 with free and open access to all papers is available via <a href="https://dl.acm.org/doi/proceedings/10.1145/3620678" target="_blank" style="text-decoration:underline;">ACM DL</a></b></h4> -->
 
-  <!-- <font size="+2">TBA</font> -->
-  <h4>This is a tentative schedule subject to change.</h4>
+                        <!-- <font size="+2">TBA</font> -->
+                        <h4>This is a tentative schedule subject to change.</h4>
 
-	<h4>Note: all times here are displayed in PDT</h4>
-        {% include session.html date="Wednesday, November 20, 2024" key="day1" showlinks="true" %}
-        {% include session.html date="Thursday, November 21, 2024" key="day2" showlinks="true" %}
-        {% include session.html date="Friday, November 22, 2024" key="day3" showlinks="true" %}
-      </div>
+                        <h4>
+                            Note: all times here are displayed in Pacific time.
+                        </h4>
+                        {% include session.html date="Wednesday, November 19,
+                        2025" key="day1" showlinks="true" %} {% include
+                        session.html date="Thursday, November 20, 2025"
+                        key="day2" showlinks="true" %} {% include session.html
+                        date="Friday, November 21, 2025" key="day3"
+                        showlinks="true" %}
+                    </div>
 
+                    <!-- /.section-content -->
+                </section>
+                <!-- /.main-content -->
+            </div>
+            <!-- /.col-md-9 -->
 
-      <!-- /.section-content -->
-    </section><!-- /.main-content -->
-  </div><!-- /.col-md-9 -->
-              
-  <div class="col-md-3">
-    {% include latest-news.html %}
-  </div><!-- /.col-md-3 -->
-
-</div><!-- /.row -->
-</div><!-- /.container -->
+            <div class="col-md-3">{% include latest-news.html %}</div>
+            <!-- /.col-md-3 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
 </div>
 <!-- end Content -->
