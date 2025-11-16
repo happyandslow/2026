@@ -56,9 +56,11 @@
                 <!-- <h3 class="talk-title">{{ talk.title }}</h3> -->
                 <!-- BROUGHT THE IF BLOCK OUTSIDE -->
                 {% if talk.best %}
-                  <h4 class="talk-title-link"><font style="color:red">[Best paper]</font> {{ talk.title }}</a>
+                  <h4 class="talk-title"><font style="color:red">[Best Paper]</font> {{ talk.title }}</h4>
+                {% elsif talk.honorablemention %}
+                <h4 class="talk-title"><font style="color:red">[Honorable Mention]</font> {{ talk.title }}</h4>
                 {% elsif talk.bestvision %}
-                  <h4 class="talk-title-link"><font style="color:red">[Best Vision paper]</font> {{ talk.title }}</a>
+                  <h4 class="talk-title"><font style="color:red">[Best Vision paper]</font> {{ talk.title }}</h4>
                   {% else %}
                   <h4 class="talk-title">{{ talk.title }}</h4>
                   {% endif %}
