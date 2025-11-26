@@ -1,4 +1,4 @@
-# SoCC 2025 Website
+# SoCC 2026 Website
 
 *** Currently cloned from socc2025 ***
 
